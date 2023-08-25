@@ -114,7 +114,7 @@ HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
     URL = "https://{}/".format(FQDN)
 
- = "shortnflyowner_bot"
+REPO_OWNER = "shortnflyowner_bot"
 
 
 
